@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.download("./OP RESUME_722.pdf");
+  res.download("./op_resume.pdf");
   //res.send("helo wld")
 });
 
